@@ -57,6 +57,15 @@ console.log(2 + 3);
 //         - "Young" if age is between 13 and 35
 //         - "Aged" if age > 35
 // write code here
+let userAge = prompt("Enter your Name");
+if(userAge < 13){
+    console.log("Child");
+} else-if(userAge > 13 && userAge < 35){
+    console.log("Young");
+}else{
+    console.log("Aged");
+}
+
 
 
 // Task 4.2 — Switch statement
