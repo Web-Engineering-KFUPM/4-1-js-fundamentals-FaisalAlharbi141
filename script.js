@@ -75,6 +75,33 @@ if(userAge < 13){
 //         - If it is "Sat" or "Sun", log "weekend".
 //         - For any other value, log "unknown".
 // write code here
+let day = "Mon"
+switch(day){
+    case "Mon":
+        console.log("weekday");
+        break;
+    case "Tue":
+        console.log("weekday");
+        break;
+    case "Wed":
+        console.log("weekday");
+        break;
+    case "Thu":
+        console.log("weekday");
+        break;
+    case "Fri":
+        console.log("weekday");
+        break;
+    case "Sat":
+        console.log("weekend");
+        break;
+    case "Sun":
+        console.log("weekend"); 
+        break;
+    default:
+        console.log("Unknown");
+        break;
+}
 
 // Read Chapter 4 in zyBooks: Conditional (ternary) operator
 
