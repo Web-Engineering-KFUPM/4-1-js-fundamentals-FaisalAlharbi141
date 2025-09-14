@@ -121,10 +121,18 @@ console.log(sum);
 // Task 5.2 — while loop
 // let t = 3; while(t > 0), decrement the value t variable in each iteration and display the result.
 // write code here
-
-
+let t = 3;
+while( t >0){
+    t = t-1;
+}
+console.log(t);
 // Read Chapter 4 in zyBooks: Do-While Loop
 // write code here
+let y2 = 3;
+do{
+    y2 = y-1;
+}while(y2>0);
+
 
 
 // =============================
