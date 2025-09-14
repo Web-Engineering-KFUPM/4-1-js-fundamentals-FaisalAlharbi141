@@ -9,14 +9,16 @@ console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:b
 // write code here
 let course =" CIS101";
 console.log(course);
-course = " CIS102"
+course = " CIS102";
 console.log(course);
 
 // Task 2.2 — const safety
 // Create const SCHOOL = "MyCollege"; then TRY to reassign it and observe the Console error. Add a comment explaining    why  reassignment fails.
 // NOTE: For now, keep the reassignment line commented so the file runs without errors.
-// const SCHOOL = "MyCollege";
+const SCHOOL = "MyCollege";
+console.log(SCHOOL);
 // SCHOOL = "OtherCollege"; // <-- Uncomment to see the error, then re-comment after testing
+// The error happans because you cant change a constant by writing a new assaignment
 
 
 // ==========================
