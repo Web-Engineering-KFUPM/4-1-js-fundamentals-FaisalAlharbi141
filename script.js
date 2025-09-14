@@ -57,10 +57,10 @@ console.log(2 + 3);
 //         - "Young" if age is between 13 and 35
 //         - "Aged" if age > 35
 // write code here
-let userAge = prompt("Enter your Name");
+let userAge = prompt("Enter your age");
 if(userAge < 13){
     console.log("Child");
-} else-if(userAge > 13 && userAge < 35){
+} else if(userAge > 13 && userAge < 35){
     console.log("Young");
 }else{
     console.log("Aged");
@@ -112,7 +112,11 @@ switch(day){
 // Task 5.1 — for loop sum
 // TODO: Sum integers 1..10 with a for loop; display the result of total sum.
 // write code here
-
+let sum = 0;
+for(let i =1; i<10; i++ ){
+    sum = sum + i;
+}
+console.log(sum);
 
 // Task 5.2 — while loop
 // let t = 3; while(t > 0), decrement the value t variable in each iteration and display the result.
