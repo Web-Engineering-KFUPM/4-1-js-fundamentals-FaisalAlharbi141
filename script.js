@@ -28,8 +28,13 @@ console.log(SCHOOL);
 // Task 3.1 — arithmetic basics
 // Given let x = 8, y = 3; log x+y, x-y, x*y, x/y, x%y.
 // write code here
-
-
+let x = 8;
+let y = 3;
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+console.log(x%y);
 // Task 3.2 — number vs string
 // Display results of "2" + 3, 2 + "3", and 2 + 3. Add a short comment: why do the first two concatenate?
 // write code here
