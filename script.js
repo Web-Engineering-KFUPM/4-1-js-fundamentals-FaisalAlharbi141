@@ -159,7 +159,12 @@ console.log(cube(3));
 // Task 7.1 — var vs let scope
 // Declare var a = 1; let b = 2 inside a block { },  then try displaying both outside the block; observe differences.
 // write code here
-
+if (true){
+    var a =1;
+    let b =2;
+}
+console.log(a);
+console.log(b);
 
 // ==================
 // TODO-8: ARRAYS (CORE)
