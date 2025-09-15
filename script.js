@@ -173,6 +173,12 @@ console.log(b);
 // Task 8.1 — create & mutate
 // TODO: let nums = [3,1,4]; then push(1), unshift(9), pop(); log final array and length.
 // write code here
+let nums = [1,2,3];
+nums.push(2);
+nums.unshift(9);
+nums.pop();
+console.log("The final Array: " + nums);
+console.log("The arrays length: " + nums.length);
 
 
 // End of manual — great job! Keep this file open and work task by task.
